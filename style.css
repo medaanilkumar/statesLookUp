@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    letter-spacing: .23rem;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+main{
+    padding: 1rem;
+    width:50%;
+    margin: auto;
+    background-color: antiquewhite;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    /* background-color: red; */
+}
+#container #input{
+    width: 200px;
+    height: 50px;
+    /* width: 50%;
+    margin: auto; */
+      /* display: flex;
+    align-items: center;  */
+    /* background-color: blue; */
+    border: 5px solid black;
+}
+
+#output{
+    /* width: 50%;
+    margin: auto; */
+     color: red; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+   
+}
+#output .final{
+    line-break: strict;
+    margin-top: 2rem;
+}
+#output .state{
+   color: blue;
+   width: 200px;
+   height: 50px;  
+}
+
+
